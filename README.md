@@ -1,4 +1,4 @@
-# A stricter ESLint configuration - extends Moar
+# A "moar" stricter ESLint configuration
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/npm/v/eslint-config-node-moar.svg?style=flat-square)](https://npmjs.com/package/eslint-config-node-moar)
@@ -17,4 +17,14 @@ Install all the dependencies:
 
 ```shell
 yarn add -D eslint eslint-config-node-moar eslint eslint-config-node-moar-stricter eslint-plugin-node eslint-plugin-security eslint-plugin-sonarjs eslint-plugin-fp eslint-plugin-unicorn
+```
+
+Add it in your own `.eslintrc.js` like this:
+
+```javascript
+module.exports = {
+  extends: [
+    'node-moar-stricter',
+  ],
+}
 ```
