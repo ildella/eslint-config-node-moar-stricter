@@ -1,4 +1,4 @@
-# A "moar" stricter ESLint configuration
+# A "moar" ESLint configuration - even stricter
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/npm/v/eslint-config-node-moar.svg?style=flat-square)](https://npmjs.com/package/eslint-config-node-moar)
